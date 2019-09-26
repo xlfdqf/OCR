@@ -1,0 +1,12 @@
+/* 覆盖样式 */
+#app .sidebar-container .nest-menu .el-submenu > .el-submenu__title:hover,
+#app .sidebar-container .el-submenu .el-menu-item:hover {
+  color: white !important;
+}
+.el-menu-item.is-active{
+   background-color: #1890ff!important;
+}
+.tags-view-container .tags-view-wrapper .tags-view-item.active[data-v-2edda286]{
+  background-color: #1890ff!important;
+  border: 1px #1890ff solid!important;
+}

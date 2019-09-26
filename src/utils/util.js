@@ -1,3 +1,4 @@
+import { Message, MessageBox } from 'element-ui'
 /**
  * 动态插入css
  */
@@ -18,3 +19,11 @@ export const setTitle = function (title) {
   window.document.title = title
 }
 
+// 提示框
+export function message(title, type) {
+  Message({
+    showClose: true,
+    message: title,
+    type: type
+  });
+}
